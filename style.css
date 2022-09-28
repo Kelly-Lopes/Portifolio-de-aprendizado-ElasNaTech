@@ -317,16 +317,6 @@ aside{
     border-radius: 10px;
 }
 
-.img-2 img{
-    width: 450px;
-    height: auto;
-    margin-left: 32%;
-    margin-top: 35px;
-    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
-    border-radius: 10px;
-} 
-
-
 .C-projetos img:hover{
     transform: scale(1.1);
     transition: 0.5s;
@@ -341,16 +331,10 @@ aside{
     .img-projetos img{
         width: 300px;
         height: auto;
-       
+        cursor: pointer;
     }
 
-    .img-2 img{
-        width: 300px;
-        height: auto;
-        margin-left: -28px;
-        margin-top: 50px;
-       
-    }
+   
 }
 
 /*===============Rodapé================*/
@@ -376,7 +360,6 @@ aside{
     font-size: 16px;
     padding: 5px;
 }
-
 
 .icon3 {
     font-size: 50px;
