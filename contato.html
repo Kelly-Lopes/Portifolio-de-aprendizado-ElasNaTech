@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    
+
+        <aside>
+           <div class="icon-menu" onclick="abrirmenu()">
+               <img src="imgs/iconmenu.png">
+           </div><!--icon-menu-->
+   
+           <div id="barra-menu">
+               <ul>
+                   <li><a href="index.html">Inicio</a></li>
+                   <li><a href="sobremim.html">Sobre mim</a></li>
+                   <li><a href="projetos.html">Projetos</a></li>
+                   <li><a href="contato.html">Contato</a></li>
+                   
+               </ul>
+
+               <div class="C-icon">
+                <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                
+                <a href="https://www.linkedin.com/in/kellyr-lopes/" target="_blank" rel="noopener noreferrer">
+                <span class="icon"><ion-icon name="logo-linkedin"></ion-icon></span> </a>
+                
+                <a href="https://github.com/Kelly-Lopes" target="_blank" rel="noopener noreferrer">
+                <span class="icon"><ion-icon name="logo-github"></ion-icon></span> </a>
+
+            </div><!--icon-->
+        </div><!--barra-menu-->
+        </aside>
+
+<!--formulãrio-->
+        <section class="faleconosco" id="faleconosco">
+            <div class="content">
+                <div class="title-wrapper-faleconosco">
+                    <h3>Fale Conosco</h3><br>
+                    <p>E-mail: drkellylopes@gmail.com<br>
+                        Telefone: (61) 9 93778773</p>
+                </div>
+            
+                <div class="faleconosco-card-block">
+                    <div class="faleconosco-card-item">
+                        <img src="imgs/contatoanimado.svg"  alt="faleconosco">
+                        <div class="faleconosco-text-content">
+                            <p>Sugestões, Críticas, Dúvidas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faleconosco-formulario"> <!--fale conosco2-->
+                    <form enctype="application/x-www-form-urlencoded" method="post">
+                        <label for="NomeCompleto">Nome</label><br>
+                        <input id="NomeCompleto" type="text" name="Nome_Completo" placeholder="Digite seu nome completo" size="45">
+                        <br>
+            
+                        <label for="Email">Email</label><br>
+                        <input id="Email" type="email" name="Email" placeholder="Digite seu Email" size="45">
+                        <br>
+            
+                        <label for="Telefone">Telefone</label><br>
+                        <input id="Telefone" type="text" name="Telefone" placeholder="Digite seu telefone com DDD" size="30">
+                        <br>
+                        
+                        <label for="Mensagem">Mensagem</label><br>
+                        <textarea name="Mensagem"></textarea>
+                        <br>
+    
+                        <Input type="submit" value="Enviar"></Input> <input type="reset" value="Apagar">
+                        <br>
+                    </form>
+                 </div><!--fale conosco2-->
+            </div>
+        </section>
+
+
+        
+        <section class="C-rodapé" >
+           <div class="iconrodape">
+        
+        <a href="http://" target="_blank">
+            <span class="icon3"><ion-icon name="logo-instagram"></ion-icon></span>
+        </a>
+        <a href="http://" target="_blank">   
+            <span class="icon3"><ion-icon name="logo-facebook"></ion-icon></span>
+        </a>
+        <a href="https://www.linkedin.com/in/kellyr-lopes/" target="_blank">
+            <span class="icon3"><ion-icon name="logo-linkedin"></ion-icon></span>
+        </a>
+        <a href="https://github.com/Kelly-Lopes" target="_blank">
+            <span class="icon3"><ion-icon name="logo-github"></ion-icon></span>
+        </a>
+   
+    
+        </div><!--icon-->
+        </section><!--C-rodapé-->
+
+
+
+
+
+
+
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+        <script>
+          AOS.init();
+        </script>
+
+</body>
+</html>
